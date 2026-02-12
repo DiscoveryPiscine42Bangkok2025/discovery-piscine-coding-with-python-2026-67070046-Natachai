@@ -1,7 +1,8 @@
 import sys
 def main():
-    if len(sys.argv) >= 2:
-        for param in sys.argv[1:]:
+    para = sys.argv[1:]
+    if len(para) >= 1:
+        for param in para:
             if not param.endswith("ism"):
                 print(param + "ism")
     else:
