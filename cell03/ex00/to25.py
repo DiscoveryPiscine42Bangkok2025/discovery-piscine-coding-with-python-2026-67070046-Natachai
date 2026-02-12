@@ -1,10 +1,10 @@
 def ilove42():
     """ex00"""
-    number = int(input("Enter a number less than 25\n"))
-    if number > 25:
+    num = int(input("Enter a number less than 25\n"))
+    if num > 25:
         print("Error")
     else:
-        while number < 25:
-            print(f"Inside the loop, my variable is {number}")
-            number += 1
+        while num < 25:
+            print(f"Inside the loop, my variable is {num}")
+            num += 1
 ilove42()
